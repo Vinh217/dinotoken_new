@@ -1,95 +1,70 @@
+import Paragraph from '../components/common/Paragraph';
+
 export default function Footer() {
     return (
-        <div
-            className="footer_bg_color w-full px-[16px] py-[20px] text-text-white md:px-[130px]"
-            id="footer"
-        >
-            <div className="flex flex-col gap-[16px] border-b border-[#1D2E27] md:flex-row">
-                <div className="flex-1 border-r border-[#1D2E27] py-[20px]">
-                    <div className="flex flex-col gap-[16px]">
-                        <div className="flex items-center gap-[10px]">
-                            <img
-                                src="/assets/logo-social.svg"
-                                alt="social"
-                                className="h-[30px] w-[30px] md:h-[46px] md:w-[46px]"
-                            />
-                            <div className="text-[32px] font-[900] md:text-[32px]">
-                                Social
-                            </div>
+        <div>
+            <div
+                className="bg-footer text-text-white w-full bg-100% bg-center bg-no-repeat px-[16px] h-[200px] md:h-[390px] md:px-[130px]"
+                id="footer"
+            >
+                <div className="h-full w-full items-center justify-center hidden md:flex">
+                    <div className="flex flex-col items-start gap-[24px]">
+                        <div className="font-poppins text-[4rem] font-[700] text-white">
+                            Start earning today
                         </div>
-                        <div className="flex gap-[20px]">
-                            <img
-                                src="/assets/ig.svg"
-                                alt="ig"
-                                className="w-[30px] md:w-[40px]"
-                            />
-                            <img
-                                src="/assets/fb.svg"
-                                alt="ig"
-                                className="w-[30px] md:w-[40px]"
-                            />
-                            <img
-                                src="/assets/in.svg"
-                                alt="ig"
-                                className="w-[30px] md:w-[40px]"
-                            />
-                        </div>
-                        <div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Website:
-                            </div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Telegram:
-                            </div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Telegram Global Chat:
-                            </div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Telegram Announcement Channel:
-                            </div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Instagram:
-                            </div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Memebank:
-                            </div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Discord:
-                            </div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Farcaster:
-                            </div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Reddit:
-                            </div>
-                        </div>
-                        <div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Save DINO
-                            </div>
-                            <div className="text-[12px] md:text-[14px]">
-                                Grow DINO
-                            </div>
-                        </div>
+                        <Paragraph classes={'text-white opacity-70'}>
+                            0 trading fee on selected Bitcoin (BTC) spot trading
+                            pairs now
+                        </Paragraph>
+                        <Paragraph classes={'text-white opacity-70'}>
+                            Lowest transactions fees &lt; 0.10%
+                        </Paragraph>
+                        <Paragraph
+                            classes={
+                                'text-white px-[20px] py-[12px] bg-[#FC9F4F] rounded-[4px] cursor-pointer'
+                            }
+                        >
+                            Sign Up Now
+                        </Paragraph>
                     </div>
                 </div>
-                <div className="flex-1 py-[20px] text-[12px] md:text-[14px]">
-                    Join the dino-mite revolution by following us on our social
-                    media platforms, sharing our memes, and contributing your
-                    own creations. Whether you’re a paleontology buff or just
-                    someone who loves a good laugh, Project Dino welcomes
-                    everyone to the prehistoric party.
+            </div>
+            <div className='w-full px-[16px] bg-bg-footer md:hidden py-[30px]'>
+                <div className="flex h-full w-full items-center justify-center">
+                    <div className="flex flex-col items-start gap-[24px]">
+                        <div className="font-poppins text-[4rem] font-[700] text-white">
+                            Start earning today
+                        </div>
+                        <Paragraph classes={'text-white opacity-70'}>
+                            0 trading fee on selected Bitcoin (BTC) spot trading
+                            pairs now
+                        </Paragraph>
+                        <Paragraph classes={'text-white opacity-70'}>
+                            Lowest transactions fees &lt; 0.10%
+                        </Paragraph>
+                        <Paragraph
+                            classes={
+                                'text-white px-[20px] py-[12px] bg-[#FC9F4F] rounded-[4px] cursor-pointer'
+                            }
+                        >
+                            Sign Up Now
+                        </Paragraph>
+                    </div>
                 </div>
             </div>
-            <div className="py-[20px] text-[12px] md:text-[14px]">
-                At Project Dino, we believe that laughter is timeless—just like
-                dinosaurs. So, let’s dig up the past and resurrect it with
-                humor, one meme at a time. Get ready to embark on a comedic
-                journey through the Mesozoic era and beyond with Project Dino!
-                Get Dino tokens now!
-            </div>
-            <div className="text-[12px] md:text-[14px]">
-                RISK WARNING: Any activity with Crypto assets entails risks and could result in a complete or partial loss of your Crypto assets and / or fiat funds and you should not expect to be protected if something goes wrong. Only you are responsible for your decisions and actions performed on Crypto assets wallets and platforms.
+            <div className="bg-bg-footer px-[16px] py-[50px] md:px-[130px]">
+                <div className="flex h-[48px] items-center justify-center border-b border-t border-white opacity-70">
+                    <Paragraph classes={'text-white opacity-40'}>
+                        @copyright2024
+                    </Paragraph>
+                </div>
+                <Paragraph classes={'text-white pt-[40px]'}>
+                    At Project Dino, we believe that laughter is timeless—just
+                    like dinosaurs. So, let’s dig up the past and resurrect it
+                    with humor, one meme at a time. Get ready to embark on a
+                    comedic journey through the Mesozoic era and beyond with
+                    Project Dino! Get Dino tokens now!
+                </Paragraph>
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'banner': 'url("/assets/bannertop.svg")',
+        'footer': 'url("/assets/footer_one.png")',
         'bgdino3': 'url("/assets/bgdino3.png")',
       },
       backgroundSize: {
@@ -22,7 +22,8 @@ export default {
       },
       colors: {
         'bg-primary': '#E6FCE1',
-        'text-primary': 'rgba(0, 0, 0, 0.7)'
+        'text-primary': 'rgba(0, 0, 0, 0.7)',
+        'bg-footer': '#093012'
       },
       fontFamily: {
         'poppins': ['Poppins', 'ui-sans-serif', 'system-ui']
