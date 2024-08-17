@@ -48,7 +48,7 @@ export default function Layout({ children }) {
                             <div className="flex w-full max-w-[80px]">
                                 <LazyLoad height={200} once>
                                     <img
-                                        src="/assets/dino_balo.png"
+                                        src="/assets/dino_logo.png"
                                         alt="gift"
                                         className="w-full shrink-0"
                                     />
@@ -93,7 +93,7 @@ export default function Layout({ children }) {
                         <div className="flex w-full max-w-[50px]">
                             <LazyLoad height={200} once>
                                 <img
-                                    src="/assets/dino_balo.png"
+                                    src="/assets/dino_logo.png"
                                     alt="gift"
                                     className="w-full shrink-0"
                                 />
