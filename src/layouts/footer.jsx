@@ -1,13 +1,14 @@
 import Paragraph from '../components/common/Paragraph';
+import TextHeader from '../components/common/TextHeader';
 
 export default function Footer() {
     return (
         <div>
             <div
-                className="bg-footer text-text-white w-full bg-100% bg-center bg-no-repeat px-[16px] h-[200px] md:h-[390px] md:px-[130px]"
+                className="text-text-white h-[200px] w-full bg-footer bg-100% bg-center bg-no-repeat px-[16px] md:h-[390px] md:px-[130px]"
                 id="footer"
             >
-                <div className="h-full w-full items-center justify-center hidden md:flex">
+                <div className="hidden h-full w-full items-center justify-center md:flex">
                     <div className="flex flex-col items-start gap-[24px]">
                         <div className="font-poppins text-[4rem] font-[700] text-white">
                             Start earning today
@@ -29,12 +30,12 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='w-full px-[16px] bg-bg-footer md:hidden py-[30px]'>
+            <div className="w-full bg-bg-footer px-[16px] py-[30px] md:hidden">
                 <div className="flex h-full w-full items-center justify-center">
                     <div className="flex flex-col items-start gap-[24px]">
-                        <div className="font-poppins text-[4rem] font-[700] text-white">
+                        <TextHeader classes={'text-white'}>
                             Start earning today
-                        </div>
+                        </TextHeader>
                         <Paragraph classes={'text-white opacity-70'}>
                             0 trading fee on selected Bitcoin (BTC) spot trading
                             pairs now
@@ -44,7 +45,7 @@ export default function Footer() {
                         </Paragraph>
                         <Paragraph
                             classes={
-                                'text-white px-[20px] py-[12px] bg-[#FC9F4F] rounded-[4px] cursor-pointer'
+                                'text-white px-[20px] py-[12px] bg-[#FC9F4F] font-[600] rounded-[4px] cursor-pointer'
                             }
                         >
                             Sign Up Now

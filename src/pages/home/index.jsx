@@ -1,20 +1,23 @@
-import { useState } from 'react';
-import CountdownTimer from '../../components/CountdownTimer';
-import Sliders from '../../components/Sliders';
-import SliderFooter from '../../components/Sliderfooter';
 import LazyLoad from 'react-lazyload';
-
+import Presale from '../../components/PreSale';
+import Social from '../../components/Social';
 export default function Home() {
-    const SEVEN_DAYS_IN_MS = 7 * 24 * 60 * 60 * 1000;
-    const NOW_IN_MS = new Date().getTime();
-    const dateTimeAfterSevenDays = NOW_IN_MS + SEVEN_DAYS_IN_MS;
-    const [textToCopy] = useState('TBA');
     return (
         <div>
-            hello
+            <div className="flex w-full max-w-full">
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/banner.png"
+                        alt="gift"
+                        className="w-full shrink-0"
+                    />
+                </LazyLoad>
+            </div>
+            <Presale />
+            <Social />
         </div>
-    )
-    // return (
+    );
+
     //     <div>
     //         <div className="relative">
     //             <LazyLoad height={200} once>

@@ -8,7 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'footer': 'url("/assets/footer_one.png")',
-        'bgdino3': 'url("/assets/bgdino3.png")',
+        'plant-dino': 'url("/assets/plant_full.png")',
       },
       backgroundSize: {
         '100%': '100% 100%'
@@ -26,7 +26,8 @@ export default {
         'bg-footer': '#093012'
       },
       fontFamily: {
-        'poppins': ['Poppins', 'ui-sans-serif', 'system-ui']
+        'poppins': ['Poppins', 'ui-sans-serif', 'system-ui'],
+        'potta-one': ['Potta One',  'system-ui']
       },
       fontSize: {
         'big': '64px',
