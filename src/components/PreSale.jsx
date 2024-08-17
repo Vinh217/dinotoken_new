@@ -3,18 +3,22 @@ import CountdownTimer from './CountdownTimer';
 import Paragraph from './common/Paragraph';
 
 export default function PreSale() {
-    const SEVEN_DAYS_IN_MS = 7 * 24 * 60 * 60 * 1000;
-    const NOW_IN_MS = new Date().getTime();
-    const dateTimeAfterSevenDays = NOW_IN_MS + SEVEN_DAYS_IN_MS;
+    // const SEVEN_DAYS_IN_MS = 7 * 24 * 60 * 60 * 1000;
+    // const NOW_IN_MS = new Date().getTime();
+    // const dateTimeAfterSevenDays = NOW_IN_MS + SEVEN_DAYS_IN_MS;
+    const dateTimeAfter30_8 = new Date('2024-08-30T00:00:00').getTime();
 
     return (
-        <div id="presale" className="flex w-full flex-col items-center justify-center bg-bg-primary px-[16px] py-[50px] md:px-[130px]">
+        <div
+            id="presale"
+            className="flex w-full flex-col items-center justify-center bg-bg-primary px-[16px] py-[50px] md:px-[130px]"
+        >
             <TextHeader classes={'font-potta-one text-center py-[30px]'}>
                 Presale detail
             </TextHeader>
-            <div className="bg-plant-dino h-[270px] md:h-[600px] w-full bg-100% bg-center bg-no-repeat flex items-center justify-center">
-                <div className="flex flex-col items-center justify-center gap-[10px] md:gap-[24px] py-[20px]">
-                    <CountdownTimer targetDate={dateTimeAfterSevenDays} />
+            <div className="flex h-[270px] w-full items-center justify-center bg-plant-dino bg-100% bg-center bg-no-repeat md:h-[600px]">
+                <div className="flex flex-col items-center justify-center gap-[10px] py-[20px] md:gap-[24px]">
+                    <CountdownTimer targetDate={dateTimeAfter30_8} />
                     <Paragraph>MIN: TBA</Paragraph>
                     <Paragraph>MAX: TBA</Paragraph>
                     <div className="flex gap-[12px]">
