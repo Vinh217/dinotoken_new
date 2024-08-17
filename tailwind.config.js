@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         'footer': 'url("/assets/footer_one.png")',
         'plant-dino': 'url("/assets/plant_full.png")',
+        'bgdino3': 'url("/assets/bgdino3.png")'
       },
       backgroundSize: {
         '100%': '100% 100%'
@@ -23,7 +24,8 @@ export default {
       colors: {
         'bg-primary': '#E6FCE1',
         'text-primary': 'rgba(0, 0, 0, 0.7)',
-        'bg-footer': '#093012'
+        'bg-footer': '#093012',
+        'text-base': '#51DA3F'
       },
       fontFamily: {
         'poppins': ['Poppins', 'ui-sans-serif', 'system-ui'],

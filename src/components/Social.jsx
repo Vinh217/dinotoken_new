@@ -77,9 +77,9 @@ export default function Social() {
                 </Paragraph>
             </div>
             <div className="grid w-full grid-cols-1 gap-[30px] pb-[60px] pt-[30px] sm:grid-cols-2 lg:grid-cols-3">
-                {socials.map((s) => (
+                {socials.map((s, index) => (
                     <Card
-                        key={s.index}
+                        key={index}
                         icon={s.icon}
                         title={s.title}
                         followers={s.followers}
@@ -88,10 +88,10 @@ export default function Social() {
                 ))}
             </div>
             <TextHeader>Need help ?</TextHeader>
-            <div className="grid w-full grid-cols-1 gap-[30px] py-[30px] sm:grid-cols-2 lg:grid-cols-3">
-                {supports.map((s) => (
+            <div id="faq" className="grid w-full grid-cols-1 gap-[30px] py-[30px] sm:grid-cols-2 lg:grid-cols-3">
+                {supports.map((s, index) => (
                     <Card
-                        key={s.index}
+                        key={index}
                         icon={s.icon}
                         title={s.title}
                         followers={s.followers}

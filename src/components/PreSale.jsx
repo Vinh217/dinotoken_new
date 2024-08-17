@@ -8,7 +8,7 @@ export default function PreSale() {
     const dateTimeAfterSevenDays = NOW_IN_MS + SEVEN_DAYS_IN_MS;
 
     return (
-        <div className="flex w-full flex-col items-center justify-center bg-bg-primary px-[16px] py-[50px] md:px-[130px]">
+        <div id="presale" className="flex w-full flex-col items-center justify-center bg-bg-primary px-[16px] py-[50px] md:px-[130px]">
             <TextHeader classes={'font-potta-one text-center py-[30px]'}>
                 Presale detail
             </TextHeader>

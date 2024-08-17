@@ -14,7 +14,7 @@ export default function Home() {
                 </LazyLoad>
             </div>
             <Presale />
-            <div className="flex w-full max-w-full">
+            <div id="utility" className="flex w-full max-w-full">
                 <LazyLoad height={200} once>
                     <img
                         src="/assets/introduct.png"
@@ -23,7 +23,7 @@ export default function Home() {
                     />
                 </LazyLoad>
             </div>
-            <div className="flex w-full max-w-full">
+            <div id="features" className="flex w-full max-w-full">
                 <LazyLoad height={200} once>
                     <img
                         src="/assets/our-goal.png"
@@ -41,7 +41,7 @@ export default function Home() {
                     />
                 </LazyLoad>
             </div>
-            <div className="flex w-full max-w-full">
+            <div id="roadmap" className="flex w-full max-w-full">
                 <LazyLoad height={200} once>
                     <img
                         src="/assets/roadmap.png"
@@ -59,7 +59,7 @@ export default function Home() {
                     />
                 </LazyLoad>
             </div>
-            <div className="flex w-full max-w-full">
+            <div id="dinonomic" className="flex w-full max-w-full">
                 <LazyLoad height={200} once>
                     <img
                         src="/assets/dinomic.png"

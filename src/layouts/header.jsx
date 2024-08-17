@@ -3,7 +3,7 @@ import Paragraph from '../components/common/Paragraph';
 import LazyLoad from 'react-lazyload';
 
 export default function Header() {
-    const [isClose, setIsClose] = useState(false);
+    const [isClose, setIsClose] = useState(true);
     const renderNoti = () => {
         if (isClose) {
             return null;
