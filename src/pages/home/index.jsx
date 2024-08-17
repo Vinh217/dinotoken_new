@@ -9,11 +9,83 @@ export default function Home() {
                     <img
                         src="/assets/banner.png"
                         alt="gift"
-                        className="w-full shrink-0"
+                        className="w-full shrink-0 object-cover"
                     />
                 </LazyLoad>
             </div>
             <Presale />
+            <div className="flex w-full max-w-full">
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/introduct.png"
+                        alt="gift"
+                        className="w-full shrink-0 object-cover"
+                    />
+                </LazyLoad>
+            </div>
+            <div className="flex w-full max-w-full">
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/our-goal.png"
+                        alt="gift"
+                        className="w-full shrink-0 object-cover"
+                    />
+                </LazyLoad>
+            </div>
+            <div className="flex w-full max-w-full">
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/sample_meme.png"
+                        alt="gift"
+                        className="w-full shrink-0 object-cover"
+                    />
+                </LazyLoad>
+            </div>
+            <div className="flex w-full max-w-full">
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/roadmap.png"
+                        alt="gift"
+                        className="w-full shrink-0 object-cover"
+                    />
+                </LazyLoad>
+            </div>
+            <div className="flex w-full max-w-full">
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/conclusion.png"
+                        alt="gift"
+                        className="w-full shrink-0 object-cover"
+                    />
+                </LazyLoad>
+            </div>
+            <div className="flex w-full max-w-full">
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/dinomic.png"
+                        alt="gift"
+                        className="w-full shrink-0 object-cover"
+                    />
+                </LazyLoad>
+            </div>
+            <div className="flex w-full max-w-full">
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/dinoteam.png"
+                        alt="gift"
+                        className="w-full shrink-0 object-cover"
+                    />
+                </LazyLoad>
+            </div>
+            <div className="flex w-full max-w-full">
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/dinoholder.png"
+                        alt="gift"
+                        className="w-full shrink-0 object-cover"
+                    />
+                </LazyLoad>
+            </div>
             <Social />
         </div>
     );
